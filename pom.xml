@@ -1,0 +1,71 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Propine_Addition_Calculator</groupId>
+  <artifactId>Propine_Addition_Calculator</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Propine Addition Calculator</name>
+  <description>Propine Addition Calculator</description>
+  <dependencies>
+	<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+     <version>3.141.59</version>
+ 	</dependency>
+<!-- Web Driver Manager -->	
+    <dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>2.2.5</version>
+	</dependency>
+<!-- Read data from Excel -->
+	<dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi</artifactId>
+      <version>3.6</version>
+      <scope>compile</scope>
+    </dependency>
+    
+<!-- Read data from xml -->
+    <dependency>
+	    <groupId>org.codehaus.groovy</groupId>
+	    <artifactId>
+	    groovy</artifactId>
+	    <version>2.5.0-alpha-1</version>
+	</dependency>
+	<dependency>
+    <groupId>com.codeborne</groupId>
+    <artifactId>selenide</artifactId>
+    <version>5.0.1</version>
+</dependency>
+<!-- Read data from Json -->
+	 <dependency>
+	    <groupId>com.googlecode.json-simple</groupId>
+	    <artifactId>json-simple</artifactId>
+	    <version>1.1.1</version>
+	</dependency>
+	<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>6.14.3</version>
+    <scope>test</scope>
+</dependency>
+<!-- extent report generate -->
+<dependency>
+	    <groupId>com.relevantcodes</groupId>
+	    <artifactId>extentreports</artifactId>
+	    <version>2.41.2</version>
+	</dependency>
+<!-- allure report generate -->
+	<dependency>
+		    <groupId>io.qameta.allure</groupId>
+		    <artifactId>allure-testng</artifactId>
+		    <version>2.0-BETA19</version>
+		</dependency>
+<!-- pdf report generate -->
+	<dependency>
+        <groupId>com.uttesh</groupId>
+        <artifactId>pdfngreport</artifactId>
+        <version>2.1.3</version>
+    </dependency>
+ </dependencies>
+</project>
